@@ -21,6 +21,7 @@ These apps are currently in Zendesk production:
 
 ## PowerBi Dashboard
 **Location:** top bar of Zendesk agent dashboard
+
 **Purpose:** Provide Support with a dashboard when searching by Netsuite ID
 
 ## RFC Apps
