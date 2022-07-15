@@ -1,0 +1,14 @@
+{
+    "app": {
+        "name": "Fourth Integrations",
+        "short_description": "App to consolidate integration tools with other platforms",
+        "long_description": "App to consolidate integration tools with other platforms (NetSuite, Salesforce, etc.)",
+        "installation_instructions": "Simply click install.",
+        "parameters": {
+            "salesforce_username": { "label": "Salesforce Username" },
+            "salesforce_password": { "label": "Salesforce Password" },
+            "salesforce_clientid": { "label": "Salesforce App Client ID" },
+            "salesforce_clientsecret": { "label": "Salesforce App Client Secret" }
+        }
+    }
+}

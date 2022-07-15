@@ -1,0 +1,17 @@
+{
+    "name": "Fourth Views",
+    "author": {
+        "name": "Tyler Coudriet",
+        "email": "tyler.coudriet@fourth.com",
+        "url": ""
+    },
+    "defaultLocale": "en",
+    "private": true,
+    "location": {
+        "support": {
+            "top_bar": "assets/iframe.html"
+        }
+    },
+    "version": "1.0",
+    "frameworkVersion": "2.0"
+}

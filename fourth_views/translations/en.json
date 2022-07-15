@@ -1,0 +1,8 @@
+{
+    "app": {
+        "name": "Fourth Views",
+        "short_description": "Custom App to provide easier navigation of Views from anywhere in Zendesk.",
+        "long_description": "Custom App to provide easier navigation of Views from anywhere in Zendesk.",
+        "installation_instructions": "Simply click install."
+    }
+}

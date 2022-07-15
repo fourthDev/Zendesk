@@ -1,0 +1,24 @@
+{
+    "name": "Conditional Fields",
+    "author": {
+        "name": "Jeff Rosser",
+        "email": "jeffrey.rosser@fourth.com",
+        "url": "https://help.fourth.com"
+    },
+    "defaultLocale": "en",
+    "private": true,
+    "location": {
+        "support": {
+            "ticket_sidebar": {
+                "autoHide": true,
+                "url": "assets/iframe.html"
+            },
+            "new_ticket_sidebar": {
+                "autoHide": true,
+                "url": "assets/iframe.html"
+            }
+        }
+    },
+    "version": "1.0",
+    "frameworkVersion": "2.0"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Fuego",
+    "author": {
+        "name": "Jeff Rosser",
+        "email": "jeffrey.rosser@fourth.com",
+        "url": ""
+    },
+    "defaultLocale": "en",
+    "private": true,
+    "location": {
+        "support": {
+            "ticket_sidebar": {
+                "autoHide": true,
+                "url": "assets/fuego.html"
+            },
+            "new_ticket_sidebar": {
+                "autoHide": true,
+                "url": "assets/fuego.html"
+            }
+        }
+    },
+    "version": "1.0",
+    "frameworkVersion": "2.0"
+}

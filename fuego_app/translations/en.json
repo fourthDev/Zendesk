@@ -1,0 +1,8 @@
+{
+    "app": {
+        "name": "Fuego",
+        "short_description": "Sets tags and fields for Fuego routing from Sharpen",
+        "long_description": "Sets the Fuego tag, Fuego brand, Fuego Worker group, and Module when Sharpen Ring Group Queue custom field includes 'EWA'",
+        "installation_instructions": "Simply click install."
+    }
+}

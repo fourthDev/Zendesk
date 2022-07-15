@@ -1,0 +1,73 @@
+{
+    "name": "Fourth Integrations",
+    "author": {
+        "name": "Tyler Coudriet",
+        "email": "tyler.coudriet@fourth.com",
+        "url": ""
+    },
+    "defaultLocale": "en",
+    "private": true,
+    "location": {
+        "support": {
+            "ticket_sidebar": {
+                "autoHide": false,
+                "url": "assets/tickets/tickets.html",
+                "size": {
+                    "height": "350px",
+                    "width": "320px"
+                }
+            },
+            "new_ticket_sidebar": {
+                "autoHide": false,
+                "url": "assets/tickets/tickets.html",
+                "size": {
+                    "height": "350px",
+                    "width": "320px"
+                }
+            },
+            "user_sidebar": {
+                "autoHide": false,
+                "url": "assets/users/users.html",
+                "size": {
+                    "height": "350px",
+                    "width": "320px"
+                }
+            },
+            "organization_sidebar": {
+                "autoHide": false,
+                "url": "assets/orgs/orgs.html",
+                "size": {
+                    "height": "350px",
+                    "width": "320px"
+                }
+            },
+            "top_bar": {
+                "autoHide": false,
+                "url": "assets/nav/nav.html",
+                "size": {
+                    "height": "350px",
+                    "width": "400px"
+                }
+            }
+        }
+    },
+    "parameters": [{
+        "name": "salesforce_username",
+        "required": true,
+        "type": "text"
+    }, {
+        "name": "salesforce_password",
+        "required": true,
+        "type": "password"
+    }, {
+        "name": "salesforce_clientid",
+        "required": true,
+        "type": "password"
+    }, {
+        "name": "salesforce_clientsecret",
+        "required": true,
+        "type": "password"
+    }],
+    "version": "1.0",
+    "frameworkVersion": "2.0"
+}

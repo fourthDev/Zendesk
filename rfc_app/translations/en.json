@@ -1,0 +1,8 @@
+{
+    "app": {
+        "name": "RFC Apps",
+        "short_description": "Fills in text fields on the RFC form.",
+        "long_description": "Fills in text fields on the RFC form. Also has a link to only load specific apps.",
+        "installation_instructions": "Simply click install."
+    }
+}

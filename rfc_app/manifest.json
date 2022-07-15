@@ -1,0 +1,31 @@
+{
+    "name": "RFC Apps",
+    "author": {
+        "name": "Tyler Coudriet",
+        "email": "tyler.coudriet@fourth.com",
+        "url": "https://help.fourth.com"
+    },
+    "defaultLocale": "en",
+    "private": true,
+    "location": {
+        "support": {
+            "ticket_sidebar": {
+                "autoHide": true,
+                "url": "assets/tickets.html"
+            },
+            "new_ticket_sidebar": {
+                "autoHide": true,
+                "url": "assets/tickets.html"
+            },
+            "top_bar": {
+                "url": "assets/topbar.html",
+                "size": {
+                    "height": "100px",
+                    "width": "180px"
+                }
+            }
+        }
+    },
+    "version": "1.0",
+    "frameworkVersion": "2.0"
+}

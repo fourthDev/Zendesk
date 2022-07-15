@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #173463;
+    font-family: 'Roboto', sans-serif;
+}
+
+main#app-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+section#app-list,
+section.app-return {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+div.app-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #173463;
+    padding: 8px;
+    border: 1px solid white;
+    transition: background-color 0.5s;
+}
+
+div.app-alert {
+    background-color: #CC0033;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    display: none;
+    transition: 1s display;
+}
+
+div.app-success {
+    background-color: #008d18;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    display: none;
+    transition: 1s display;
+}
+
+a.app-success-link {
+    width: 100%;
+    text-align: center;
+    color: #173463;
+    font-weight: bold;
+    display: none;
+    margin-top: 8px;
+}
+
+a.app-success-link:hover {
+    cursor: pointer;
+}
+
+a.app-confirm-link {
+    width: 100%;
+    text-align: center;
+    color: #173463;
+    font-weight: bold;
+    display: none;
+    margin-top: 8px;
+}
+
+a.app-confirm-link:hover {
+    cursor: pointer;
+}
+
+span.app-title {
+    color: white;
+    font-size: 14px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+img.menu-icon {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+div.platform-list {
+    border-bottom: 1px solid white;
+    display: none;
+}
+
+div.list-label {
+    width: 100%;
+    background-color: #2f3d52;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+div.list-label:hover {
+    cursor: pointer;
+}
+
+span.list-label-title {
+    color: white;
+    font-weight: bold;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+img.list-label-icon {
+    height: 20px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+div.list-content {
+    display: none;
+    flex-direction: column;
+}
+
+h1.app-title {
+    text-align: center;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+div.app-item:hover {
+    background-color: #0f2444;
+    cursor: pointer;
+}
+
+section.app {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.app-inputs {
+    margin: 8px 0;
+}
+
+div.input-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.input-wrapper.input-wrapper-textarea {
+    flex-direction: column;
+    align-items: normal;
+}
+
+div.input-wrapper * {
+    flex: 1;
+    text-align: center;
+    margin: 4px 8px;
+}
+
+div.input-wrapper.input-wrapper-textarea textarea {
+    text-align: left;
+    padding: 4px;
+}
+
+div.input-wrapper input {
+    text-align: left;
+    padding: 4px;
+}
+
+div.input-wrapper .required-input {
+    font-weight: bold;
+}
+
+.submit-btn {
+    padding: 8px;
+    background-color: #173463;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    transition: background-color 0.5s;
+    margin-top: 8px;
+    width: 50%;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: #0f2444;
+}
+
+.submit-btn:disabled {
+    background-color: #2e2e2e;
+}
+
+.submit-btn:disabled:hover {
+    cursor: default;
+}
+
+img.chevron-flipped {
+    transform: rotateY(180deg);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+img.chevron-down {
+    transform: rotate(90deg);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+img.chevron-up {
+    transform: rotate(270deg);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.app-results-frame {
+    margin-top: 8px;
+    border: 2px solid #173463;
+    margin-bottom: 18px;
+    width: 100%;
+}

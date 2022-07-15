@@ -1,0 +1,8 @@
+{
+    "app": {
+        "name": "NetSuite Transaction Viewer",
+        "short_description": "Display related transactions from NetSuite.",
+        "long_description": "Display related transactions from NetSuite.",
+        "installation_instructions": "Simply click install."
+    }
+}

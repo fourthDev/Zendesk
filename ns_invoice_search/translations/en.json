@@ -1,0 +1,8 @@
+{
+    "app": {
+        "name": "NetSuite Invoice Search",
+        "short_description": "Search by Invoice ID #",
+        "long_description": "Search by Invoice ID #",
+        "installation_instructions": "Simply click install."
+    }
+}

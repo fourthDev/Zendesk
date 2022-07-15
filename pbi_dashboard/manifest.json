@@ -1,0 +1,28 @@
+{
+  "name": "PowerBI Dashboard",
+  "author": {
+    "name": "Nikka Yalung",
+    "email": "nikka.yalung@fourth.com",
+    "url": "https://help.fourth.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "top_bar": {
+        "url": "assets/iframe.html",
+        "size": {
+          "height": "630px",
+          "width": "850px"
+        }
+      },
+      "organization_sidebar": "assets/iframe.html",
+      "ticket_sidebar": {
+        "url": "assets/iframe.html",
+        "flexible": true
+      }
+    }
+  },
+  "version": "1.0.0",
+  "frameworkVersion": "2.0"
+}

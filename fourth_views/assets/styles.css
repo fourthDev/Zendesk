@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #173463;
+}
+
+#loading {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 6px;
+}
+
+#app-container {
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    flex-direction: row;
+}
+
+#folders-list {
+    background-color: #365d9c;
+}
+
+#groups-list {
+    overflow: auto;
+}
+
+#folder-views,
+#group-views {
+    flex-grow: 1;
+    border-left: 1px solid #173463;
+    overflow: auto;
+}
+
+.folder,
+.group {
+    font-weight: bold;
+    padding: 6px;
+    text-align: center;
+    background-color: white;
+    color: #173463;
+}
+
+.group {
+    font-size: 14px;
+    padding: 7px;
+}
+
+.folder:hover,
+.view:hover,
+.group:hover {
+    cursor: pointer;
+}
+
+.folder-selected,
+.group-selected {
+    background-color: #173463;
+    color: white;
+}
+
+.view {
+    padding: 4px 8px;
+    padding-right: 0;
+}
